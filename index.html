@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logo.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css2?family=Sora' rel='stylesheet'> 
+	<title>Home</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G409ZZJFT1"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'G-G409ZZJFT1');
+	</script>
+	<script src="https://kit.fontawesome.com/db10397208.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<a class="skip-main" href="#main">Skip to Main Content</a>
+
+	<header>
+		<div class="nav_bar">
+			<img id="accessibility" src="images/accessibility_logo.png" alt="Logo for accessibility" style="width:66px; height:66px">
+			<nav>
+				<ul class="nav_links">
+					<li class="active"><a href = "index.html" >Home</a></li>
+					<li><a href = "understanding.html">Concepts</a></li>
+					<li><a href = "designs.html">Designs</a></li>
+					<li><a href = "galleries.html">Galleries</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="hello">
+			<p>HELLO</p>
+		</div>
+	</header>
+
+	<main>
+		<h1 id="main">Accessibility Design</h1>
+		<div class="intro_1">
+			<div class="intro">
+				<p>“Let's stop "tolerating" or "accepting" difference, as if we're so much better for not being different in the first place. Instead, let's celebrate difference, because in this world it takes a lot of guts to be different.” </br> - Kate Bornstein, author, playwright, performance artist, and gender theorist.</p>
+			</div>
+			<p class="quote"></br>"Accessible design is good design - it benefits people who don't have disabilities as well as people who do. Accessibility is all about removing barriers and providing the benefits of technology for everyone." Steve Ballmer, former chief executive of Microsoft.</p>
+		</div>
+
+		<p>Mostly, when it comes to the tech world. People will say “oh yeah, of course accessibility is important; it's the right thing to do.” However, considering the deadline and budget, the same people will be pulling their hair out saying “look, I’d love to make it work, but given the constraints, we simply can't accommodate edge cases like accessibility.”</p>
+
+		<div class="intro_2">
+			<div class="card">
+				<div class="card-body">
+					<a href="#">
+			  		<div class="card-front">
+						<img id="flip_img" src="images/quote_2.png" alt="Quote from Debra Ruh" style="width:300px; height:320px">
+			 		 </div>
+					</a>
+			  		<div class="card-back">
+						<p>“The only disability is when people cannot see human potential.”</p> 
+						<p>- Debra Ruh</p>
+			  		</div>
+				</div>
+			</div>
+
+			<p class="summary"> In my opinion, designing with accessibility in mind means being inclusive of everyone. Accessible products are better products for every single user. I'm fascinated with accessibility design, so I wish to use this website to introduce what I learned regarding accessibility design.</p>
+		</div>
+
+		<div class="intro_3">
+			<div class="scenarios_image">
+				<img class="scenarios_image_1" src = "images/recognize_exclusion.png" alt="recognize exclusion" width="25"/>
+				<img class="scenarios_image_2" src = "images/extend_to_many.png" alt="extend to many" width="25"/>
+				<img class="scenarios_image_3" src = "images/learn_from_diversity.png" alt="learn from diversity" width="25"/>
+			</div>
+
+			<div class="feedback">
+				<form
+				action="https://formspree.io/f/xoqrnqqy"
+				method="POST">
+					<h2>I'd love to hear from you!  <i class="fa-solid fa-bell"></i></h2><br>
+
+					<label for="username">Your Name: </label>
+					<input type="text" name="username" id="username" placeholder="Please enter your name">
+
+					<label for="email">Your Email: </label>
+					<input type="text" name="email" id="email" placeholder="Please enter your email">
+
+					<label for="message">Leave a Message: </label>
+					<textarea type="text" name="message" id="message" placeholder="Please enter your message"></textarea>
+
+					<label for="rate">How do you like the website? </label>
+					<br>
+					<div class="form_rate">
+						<p><i class="fa-solid fa-face-sad-tear"></i> Don't like it</p>
+						<p><i class="fa-solid fa-face-grin-beam"></i> Love it</p>
+					</div>
+					<input id="rate" name="rate" type="range" min="0" max="5" step="0.5">
+
+					<input type="submit" value = "Click to Submit!">
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<p>Milly Dai &copy; 2022</p>
+	</footer>
+</body>
+</html>
