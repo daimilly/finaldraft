@@ -515,7 +515,7 @@ footer{
 	}
 	/* End Grid on Design Page */
 
-	.intro_1, .intro_2, .intro_3 {
+	.intro_1, .intro_2 {
 		display: grid;
 		grid-template-columns: repeat(2, auto);
 		grid-template-rows: 1fr;
